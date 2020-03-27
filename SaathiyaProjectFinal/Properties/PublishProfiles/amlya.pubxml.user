@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\project development\SaathiyaProjectFinal\site to upload</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="agency.html">
+      <publishTime>07/03/2019 22:06:03</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.css">
+      <publishTime>03/18/2019 23:42:46</publishTime>
+    </File>
+    <File Include="assets/css/fonts/pe-icon-7-stroke.css">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/css/fonts/Rubik-Fonts.css">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/css/presentation-page.css">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/css/rubick.css">
+      <publishTime>03/17/2019 15:10:36</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular-2.html">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular-3.html">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular-4.html">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular-5.html">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.html">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regulard41d.html">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Pe-Icon-Stroke/Pe-icon-7-strokebb1d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Pe-Icon-Stroke/Pe-icon-7-strokebb1d.svg">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Pe-Icon-Stroke/Pe-icon-7-strokebb1d.ttf">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Pe-Icon-Stroke/Pe-icon-7-strokebb1d.woff">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Pe-Icon-Stroke/Pe-icon-7-stroked41d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Slim-Joe/Slim-Joebb1d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Slim-Joe/Slim-Joebb1d.ttf">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Slim-Joe/Slim-Joebb1d.woff">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Slim-Joe/Slim-Joed41d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Bold.otf">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Boldbb1d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Boldbb1d.ttf">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Boldbb1d.woff">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Boldd41d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Book.otf">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Bookbb1d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Bookbb1d.ttf">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Bookbb1d.woff">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/fonts/Verlag-Book/Verlag-Bookd41d.eot">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/img/agency.jpg">
+      <publishTime>03/07/2019 22:06:00</publishTime>
+    </File>
+    <File Include="assets/img/agency3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/agency_presentation.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/arrow-left.cur">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/arrow-left.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/arrow-right.cur">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/arrow-right.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/apple.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/apple_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/axa.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/axa_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/beats.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/beats_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/canon.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/canon_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/dezine.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/dezine_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/forbes.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/forbes_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/lastfm.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/lastfm_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/lg.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/lg_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/nikon.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/nikon_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/pandora.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/pandora_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/qube.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/qube_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/samsung.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/samsung_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/skullcandy.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/skullcandy_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/sony.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/sony_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/soundcloud.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/soundcloud_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/spotify.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/spotify_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/vaio.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/vaio_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/vh1.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/vh1_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/xerox.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/clients/xerox_h.svg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_10.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_11.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_12.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_14.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_6.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_7.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_8.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/faces/face_9.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/favicon.ico">
+      <publishTime>03/26/2019 22:41:33</publishTime>
+    </File>
+    <File Include="assets/img/favicon.png">
+      <publishTime>03/28/2019 22:39:01</publishTime>
+    </File>
+    <File Include="assets/img/house.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/house_2.jpg">
+      <publishTime>03/08/2019 00:40:46</publishTime>
+    </File>
+    <File Include="assets/img/house_presentation.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/noise.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/pattern.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/photographer.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/photographer2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/photographer3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/photographer4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/photographer6.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/photographer_presentation.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_1_1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_1_2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_1_3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_2_1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_2_2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_2_3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_3_1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_3_2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/presentation/section_3_3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/2413-1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/2413-2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/2413-3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/2413-4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/brandywine-1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/brandywine-2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/brandywine-3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/brandywine-4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/elwood-1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/elwood-2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/elwood-3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/elwood-4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/icrave-1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/icrave-2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/icrave-3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/icrave-4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/positano-1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/positano-2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/positano-3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/positano-4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/sol52-1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/sol52-2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/sol52-3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/houses/sol52-4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/startup/app.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/startup/controls.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/startup/headphones.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/project-content/startup/speaker.png">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/agency_1.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/agency_2.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/agency_3.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/agency_4.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/agency_5.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/agency_6.jpg">
+      <publishTime>03/07/2019 22:06:02</publishTime>
+    </File>
+    <File Include="assets/img/projects/houses_1.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/houses_2.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/houses_3.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/houses_4.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/houses_5.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/houses_6.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_1.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_10.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_11.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_12.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_2.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_3.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_4.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_5.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_6.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_7.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_8.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/photographer_9.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_1.jpeg">
+      <publishTime>03/08/2019 02:02:36</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_1.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_2.jpeg">
+      <publishTime>06/18/2018 03:42:50</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_2.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_3.jpeg">
+      <publishTime>06/18/2018 03:43:06</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_3.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_4.jpeg">
+      <publishTime>06/18/2018 03:43:20</publishTime>
+    </File>
+    <File Include="assets/img/projects/Startup_4.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/rubik.svg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/rubik_background3.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/section1.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/startup.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/startup1.jpeg">
+      <publishTime>03/07/2019 23:12:14</publishTime>
+    </File>
+    <File Include="assets/img/startup2.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/startup3.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/startup_presentation.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/img/team/team1.jpg">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/jquery-1.11.2.min.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/jquery.waypoints.min.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/modernizr.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/presentation-page/box-slider-all.jquery.min.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/presentation-page/jquery.fullPage.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/presentation-page/jquery.sharrre.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/presentation-page/jquery.slimscroll.min.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/js/rubick.js">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/awwwards.css">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_black_left%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_black_left.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_black_right%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_black_right.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_green_left%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_green_left.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_green_right%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_green_right.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_silver_left%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_silver_left.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_silver_right%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_silver_right.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_white_left%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_white_left.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_white_right%402x.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="assets/nominee/ribbons/awwwards_honorable_white_right.png">
+      <publishTime>03/07/2019 22:06:04</publishTime>
+    </File>
+    <File Include="bin/SaathiyaProjectFinal.dll">
+      <publishTime>06/25/2019 15:30:40</publishTime>
+    </File>
+    <File Include="bin/SaathiyaProjectFinal.pdb">
+      <publishTime>06/25/2019 15:30:40</publishTime>
+    </File>
+    <File Include="contact.aspx">
+      <publishTime>03/30/2019 06:30:19</publishTime>
+    </File>
+    <File Include="dashboard.aspx">
+      <publishTime>03/30/2019 03:35:31</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/29/2019 19:12:38</publishTime>
+    </File>
+    <File Include="detail.aspx">
+      <publishTime>03/30/2019 03:30:33</publishTime>
+    </File>
+    <File Include="houses.html">
+      <publishTime>07/03/2019 22:06:03</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>03/29/2019 18:32:56</publishTime>
+    </File>
+    <File Include="logout.aspx">
+      <publishTime>03/15/2019 17:57:38</publishTime>
+    </File>
+    <File Include="photo.html">
+      <publishTime>07/03/2019 22:06:03</publishTime>
+    </File>
+    <File Include="presentation.html">
+      <publishTime>07/03/2019 22:06:03</publishTime>
+    </File>
+    <File Include="register.aspx">
+      <publishTime>03/29/2019 18:35:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/25/2019 15:30:41</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>03/29/2019 18:57:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

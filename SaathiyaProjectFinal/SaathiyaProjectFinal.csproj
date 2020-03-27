@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6195AF3E-BA4B-4D43-8EA2-8D2FCEE1554D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SaathiyaProjectFinal</RootNamespace>
+    <AssemblyName>SaathiyaProjectFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\fonts\pe-icon-7-stroke.css" />
+    <Content Include="assets\css\fonts\Rubik-Fonts.css" />
+    <Content Include="assets\css\presentation-page.css" />
+    <Content Include="assets\css\rubick.css" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular-3.html" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular-4.html" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular-5.html" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="assets\fonts\glyphicons-halflings-regulard41d.html" />
+    <Content Include="assets\fonts\Pe-Icon-Stroke\Pe-icon-7-strokebb1d.svg" />
+    <Content Include="assets\img\agency.jpg" />
+    <Content Include="assets\img\agency3.jpg" />
+    <Content Include="assets\img\agency_presentation.jpg" />
+    <Content Include="assets\img\arrow-left.cur" />
+    <Content Include="assets\img\arrow-left.png" />
+    <Content Include="assets\img\arrow-right.cur" />
+    <Content Include="assets\img\arrow-right.png" />
+    <Content Include="assets\img\clients\apple.svg" />
+    <Content Include="assets\img\clients\apple_h.svg" />
+    <Content Include="assets\img\clients\axa.svg" />
+    <Content Include="assets\img\clients\axa_h.svg" />
+    <Content Include="assets\img\clients\beats.svg" />
+    <Content Include="assets\img\clients\beats_h.svg" />
+    <Content Include="assets\img\clients\canon.svg" />
+    <Content Include="assets\img\clients\canon_h.svg" />
+    <Content Include="assets\img\clients\dezine.svg" />
+    <Content Include="assets\img\clients\dezine_h.svg" />
+    <Content Include="assets\img\clients\forbes.svg" />
+    <Content Include="assets\img\clients\forbes_h.svg" />
+    <Content Include="assets\img\clients\lastfm.svg" />
+    <Content Include="assets\img\clients\lastfm_h.svg" />
+    <Content Include="assets\img\clients\lg.svg" />
+    <Content Include="assets\img\clients\lg_h.svg" />
+    <Content Include="assets\img\clients\nikon.svg" />
+    <Content Include="assets\img\clients\nikon_h.svg" />
+    <Content Include="assets\img\clients\pandora.svg" />
+    <Content Include="assets\img\clients\pandora_h.svg" />
+    <Content Include="assets\img\clients\qube.svg" />
+    <Content Include="assets\img\clients\qube_h.svg" />
+    <Content Include="assets\img\clients\samsung.svg" />
+    <Content Include="assets\img\clients\samsung_h.svg" />
+    <Content Include="assets\img\clients\skullcandy.svg" />
+    <Content Include="assets\img\clients\skullcandy_h.svg" />
+    <Content Include="assets\img\clients\sony.svg" />
+    <Content Include="assets\img\clients\sony_h.svg" />
+    <Content Include="assets\img\clients\soundcloud.svg" />
+    <Content Include="assets\img\clients\soundcloud_h.svg" />
+    <Content Include="assets\img\clients\spotify.svg" />
+    <Content Include="assets\img\clients\spotify_h.svg" />
+    <Content Include="assets\img\clients\vaio.svg" />
+    <Content Include="assets\img\clients\vaio_h.svg" />
+    <Content Include="assets\img\clients\vh1.svg" />
+    <Content Include="assets\img\clients\vh1_h.svg" />
+    <Content Include="assets\img\clients\xerox.svg" />
+    <Content Include="assets\img\clients\xerox_h.svg" />
+    <Content Include="assets\img\faces\face_10.jpg" />
+    <Content Include="assets\img\faces\face_11.jpg" />
+    <Content Include="assets\img\faces\face_12.jpg" />
+    <Content Include="assets\img\faces\face_14.jpg" />
+    <Content Include="assets\img\faces\face_6.jpg" />
+    <Content Include="assets\img\faces\face_7.jpg" />
+    <Content Include="assets\img\faces\face_8.jpg" />
+    <Content Include="assets\img\faces\face_9.jpg" />
+    <Content Include="assets\img\favicon.ico" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\house.jpg" />
+    <Content Include="assets\img\house_2.jpg" />
+    <Content Include="assets\img\house_presentation.jpg" />
+    <Content Include="assets\img\noise.png" />
+    <Content Include="assets\img\pattern.png" />
+    <Content Include="assets\img\photographer.jpg" />
+    <Content Include="assets\img\photographer2.jpg" />
+    <Content Include="assets\img\photographer3.jpg" />
+    <Content Include="assets\img\photographer4.jpg" />
+    <Content Include="assets\img\photographer6.jpg" />
+    <Content Include="assets\img\photographer_presentation.jpg" />
+    <Content Include="assets\img\presentation\section_1_1.jpg" />
+    <Content Include="assets\img\presentation\section_1_2.jpg" />
+    <Content Include="assets\img\presentation\section_1_3.jpg" />
+    <Content Include="assets\img\presentation\section_2_1.jpg" />
+    <Content Include="assets\img\presentation\section_2_2.jpg" />
+    <Content Include="assets\img\presentation\section_2_3.jpg" />
+    <Content Include="assets\img\presentation\section_3_1.jpg" />
+    <Content Include="assets\img\presentation\section_3_2.jpg" />
+    <Content Include="assets\img\presentation\section_3_3.jpg" />
+    <Content Include="assets\img\project-content\houses\2413-1.jpg" />
+    <Content Include="assets\img\project-content\houses\2413-2.jpg" />
+    <Content Include="assets\img\project-content\houses\2413-3.jpg" />
+    <Content Include="assets\img\project-content\houses\2413-4.jpg" />
+    <Content Include="assets\img\project-content\houses\brandywine-1.jpg" />
+    <Content Include="assets\img\project-content\houses\brandywine-2.jpg" />
+    <Content Include="assets\img\project-content\houses\brandywine-3.jpg" />
+    <Content Include="assets\img\project-content\houses\brandywine-4.jpg" />
+    <Content Include="assets\img\project-content\houses\elwood-1.jpg" />
+    <Content Include="assets\img\project-content\houses\elwood-2.jpg" />
+    <Content Include="assets\img\project-content\houses\elwood-3.jpg" />
+    <Content Include="assets\img\project-content\houses\elwood-4.jpg" />
+    <Content Include="assets\img\project-content\houses\icrave-1.jpg" />
+    <Content Include="assets\img\project-content\houses\icrave-2.jpg" />
+    <Content Include="assets\img\project-content\houses\icrave-3.jpg" />
+    <Content Include="assets\img\project-content\houses\icrave-4.jpg" />
+    <Content Include="assets\img\project-content\houses\positano-1.jpg" />
+    <Content Include="assets\img\project-content\houses\positano-2.jpg" />
+    <Content Include="assets\img\project-content\houses\positano-3.jpg" />
+    <Content Include="assets\img\project-content\houses\positano-4.jpg" />
+    <Content Include="assets\img\project-content\houses\sol52-1.jpg" />
+    <Content Include="assets\img\project-content\houses\sol52-2.jpg" />
+    <Content Include="assets\img\project-content\houses\sol52-3.jpg" />
+    <Content Include="assets\img\project-content\houses\sol52-4.jpg" />
+    <Content Include="assets\img\project-content\startup\app.png" />
+    <Content Include="assets\img\project-content\startup\controls.png" />
+    <Content Include="assets\img\project-content\startup\headphones.png" />
+    <Content Include="assets\img\project-content\startup\speaker.png" />
+    <Content Include="assets\img\projects\agency_1.jpg" />
+    <Content Include="assets\img\projects\agency_2.jpg" />
+    <Content Include="assets\img\projects\agency_3.jpg" />
+    <Content Include="assets\img\projects\agency_4.jpg" />
+    <Content Include="assets\img\projects\agency_5.jpg" />
+    <Content Include="assets\img\projects\agency_6.jpg" />
+    <Content Include="assets\img\projects\houses_1.jpg" />
+    <Content Include="assets\img\projects\houses_2.jpg" />
+    <Content Include="assets\img\projects\houses_3.jpg" />
+    <Content Include="assets\img\projects\houses_4.jpg" />
+    <Content Include="assets\img\projects\houses_5.jpg" />
+    <Content Include="assets\img\projects\houses_6.jpg" />
+    <Content Include="assets\img\projects\photographer_1.jpg" />
+    <Content Include="assets\img\projects\photographer_10.jpg" />
+    <Content Include="assets\img\projects\photographer_11.jpg" />
+    <Content Include="assets\img\projects\photographer_12.jpg" />
+    <Content Include="assets\img\projects\photographer_2.jpg" />
+    <Content Include="assets\img\projects\photographer_3.jpg" />
+    <Content Include="assets\img\projects\photographer_4.jpg" />
+    <Content Include="assets\img\projects\photographer_5.jpg" />
+    <Content Include="assets\img\projects\photographer_6.jpg" />
+    <Content Include="assets\img\projects\photographer_7.jpg" />
+    <Content Include="assets\img\projects\photographer_8.jpg" />
+    <Content Include="assets\img\projects\photographer_9.jpg" />
+    <Content Include="assets\img\projects\Startup_1.jpeg" />
+    <Content Include="assets\img\projects\Startup_1.jpg" />
+    <Content Include="assets\img\projects\Startup_2.jpeg" />
+    <Content Include="assets\img\projects\Startup_2.jpg" />
+    <Content Include="assets\img\projects\Startup_3.jpeg" />
+    <Content Include="assets\img\projects\Startup_3.jpg" />
+    <Content Include="assets\img\projects\Startup_4.jpeg" />
+    <Content Include="assets\img\projects\Startup_4.jpg" />
+    <Content Include="assets\img\rubik.svg" />
+    <Content Include="assets\img\rubik_background3.jpg" />
+    <Content Include="assets\img\section1.jpg" />
+    <Content Include="assets\img\startup.jpg" />
+    <Content Include="assets\img\startup1.jpeg" />
+    <Content Include="assets\img\startup2.jpg" />
+    <Content Include="assets\img\startup3.jpg" />
+    <Content Include="assets\img\startup_presentation.jpg" />
+    <Content Include="assets\img\team\team1.jpg" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\jquery-1.11.2.min.js" />
+    <Content Include="assets\js\jquery.waypoints.min.js" />
+    <Content Include="assets\js\modernizr.js" />
+    <Content Include="assets\js\presentation-page\box-slider-all.jquery.min.js" />
+    <Content Include="assets\js\presentation-page\jquery.fullPage.js" />
+    <Content Include="assets\js\presentation-page\jquery.sharrre.js" />
+    <Content Include="assets\js\presentation-page\jquery.slimscroll.min.js" />
+    <Content Include="assets\js\rubick.js" />
+    <Content Include="assets\nominee\awwwards.css" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_black_left%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_black_left.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_black_right%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_black_right.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_green_left%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_green_left.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_green_right%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_green_right.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_silver_left%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_silver_left.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_silver_right%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_silver_right.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_white_left%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_white_left.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_white_right%402x.png" />
+    <Content Include="assets\nominee\ribbons\awwwards_honorable_white_right.png" />
+    <Content Include="contact.aspx" />
+    <Content Include="dashboard.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="detail.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="detail.aspx.cs">
+      <DependentUpon>detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="detail.aspx.designer.cs">
+      <DependentUpon>detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\Pe-Icon-Stroke\Pe-icon-7-strokebb1d.eot" />
+    <Content Include="assets\fonts\Pe-Icon-Stroke\Pe-icon-7-strokebb1d.ttf" />
+    <Content Include="assets\fonts\Pe-Icon-Stroke\Pe-icon-7-strokebb1d.woff" />
+    <Content Include="assets\fonts\Pe-Icon-Stroke\Pe-icon-7-stroked41d.eot" />
+    <Content Include="assets\fonts\Slim-Joe\Slim-Joebb1d.eot" />
+    <Content Include="assets\fonts\Slim-Joe\Slim-Joebb1d.ttf" />
+    <Content Include="assets\fonts\Slim-Joe\Slim-Joebb1d.woff" />
+    <Content Include="assets\fonts\Slim-Joe\Slim-Joed41d.eot" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Bold.otf" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Boldbb1d.eot" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Boldbb1d.ttf" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Boldbb1d.woff" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Boldd41d.eot" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Book.otf" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Bookbb1d.eot" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Bookbb1d.ttf" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Bookbb1d.woff" />
+    <Content Include="assets\fonts\Verlag-Book\Verlag-Bookd41d.eot" />
+    <None Include="Properties\PublishProfiles\amlya.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProfilePic\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51540</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51540/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

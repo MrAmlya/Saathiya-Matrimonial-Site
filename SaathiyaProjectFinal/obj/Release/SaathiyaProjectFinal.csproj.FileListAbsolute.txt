@@ -1,0 +1,7 @@
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\bin\SaathiyaProjectFinal.dll.config
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\bin\SaathiyaProjectFinal.dll
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\bin\SaathiyaProjectFinal.pdb
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\obj\Release\SaathiyaProjectFinal.dll
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\obj\Release\SaathiyaProjectFinal.pdb
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\obj\Release\SaathiyaProjectFinal.csprojAssemblyReference.cache
+D:\project development\SaathiyaProjectFinal\SaathiyaProjectFinal\obj\Release\SaathiyaProjectFinal.csproj.CoreCompileInputs.cache
