@@ -207,7 +207,7 @@
                         <a class="over-area ">
                             <div class="content">
                                 <h4>Kunal & Divya</h4>
-                                <p>Turn your daytrip into a disco, make your picnic a party, watch while you work, boogie on the beach, and bring crisp, clear sound wherever you go. Because great sound makes everything better.</p>
+                                <p>We matched each other and then met in Gurgaon. And then we met a couple of times and started talking to each other. Finally, we have decided to go ahead and get married this year.</p>
                             </div>
                         </a>
                     </div>
@@ -217,10 +217,9 @@
                         <img src="assets/img/projects/Startup_2.jpeg" />
                         <a class="over-area ">
                             <div class="content">
-                                <h4>Aniket & Anmol</h4>
+                                <h4>Jaan & Divya</h4>
                                 <p>
-                                    Our app for iPhone and iPad.
-                                        Made for you to hear more. More trending tracks. More of your favorite artists. More of the music & audio you love. The SoundCloud app lets you hear more of what you want to hear. Sounds good, doesn’t it?
+                                    We found the match from Saathiya and met each other, gradually our families liked each other while we were also getting closer and now we plan to share the rest of our lives together.
                                 </p>
                             </div>
                         </a>
@@ -233,8 +232,7 @@
                             <div class="content">
                                 <h4>Ashutosh & Pranali</h4>
                                 <p>
-                                    Eye catching style! No cords. No docks. No plugs. And it gets a whopping 15 hours of playback from a single charge, so you'll need a rest before it ever will.
-                                </p>
+                                    We want to express our gratitude towards Saathiya for bringing us together. I first saw her in Delhi and knew she is the one. Shaadi.com helped our families connect with each other and choosing the correct partner for my life. I am glad that I opted for premium services on Saathiya which really helped me find my better half. Thank you team Saathiya. </p>
                             </div>
                         </a>
                     </div>
@@ -245,7 +243,7 @@
                         <a class="over-area ">
                             <div class="content">
                                 <h4>Akshay & Apurva</h4>
-                                <p>Whatever you’re doing or feeling, we’ll find playlists to match your mood.</p>
+                                <p>It's been a tough journey to find my life partner. Saathiya made it easy. Thanks a bunch to the entire team over there. Best wishes ahead please keep up the good work</p>
                             </div>
                         </a>
                     </div>
@@ -441,7 +439,7 @@
             <footer class="footer footer-big footer-color-black" id="footerTrigger">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2 col-sm-3">
+                        <div class="col-md-3 col-sm-3">
                             <div class="info add-animation-stopped animation-1">
                                 <h5 class="title">Company</h5>
                                 <nav>
@@ -454,10 +452,7 @@
                                             <a href="#">Find offers
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#">Discover Projects
-                                            </a>
-                                        </li>
+                                        
                                         <li>
                                             <a href="#">Our Portfolio
                                             </a>
@@ -470,7 +465,7 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-md-3 col-md-offset-1 col-sm-3">
+                        <div class="col-md-4 col-md-offset-1 col-sm-3">
                             <div class="info add-animation-stopped animation-2">
                                 <h5 class="title">Help and Support</h5>
                                 <nav>
@@ -491,37 +486,13 @@
                                             <a href="#">Company Policy
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#">Money Back
-                                            </a>
-                                        </li>
+                                       
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-3">
-                            <div class="info add-animation-stopped animation-3">
-                                <h5 class="title">Latest News</h5>
-                                <nav>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-twitter"></i><b>Get Shit Done</b>
-                                                The best kit in the market is here, just give it a try and let us...
-                                                <hr class="hr-small">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                                We've just been featured on <b>Awwwards Website</b>! Thank you everybody for...
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-md-offset-1 col-sm-3">
+                       
+                        <div class="col-md-3 col-md-offset-1 col-sm-3">
                             <div class="info add-animation-stopped animation-4">
                                 <h5 class="title">Follow us on</h5>
                                 <nav>

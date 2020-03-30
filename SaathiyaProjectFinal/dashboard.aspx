@@ -162,15 +162,24 @@
                         </div>
                     </div>
                     <hr />
+                    <center>
+                        <div class="row">
+                        <div class="col-md-12">
                     <asp:Label ID="UID_Label" runat="server" Text="" Visible="false"> </asp:Label>
-                    <asp:GridView ID="GridView1" runat="server">
+                    <asp:GridView ID="GridView1" class="img-circle" HeaderStyle-BackColor="Wheat" HeaderStyle-Font-Size="Larger" runat="server">
                         <Columns>
-                             <asp:ImageField DataImageUrlField="IMGPATH">
-                                <ControlStyle Height="100px" Width="100px" />
-                                <ItemStyle Height="100px" Width="100px" />
+                             <asp:ImageField ControlStyle-CssClass="img-circle" DataImageUrlField="IMGPATH">
+                                <ControlStyle Height="150px" Width="150px" />
+                                <ItemStyle Height="150px" Width="150px" />
                             </asp:ImageField>
                         </Columns>
-                    </asp:GridView>
+
+                        <HeaderStyle Font-Size="Larger"></HeaderStyle>
+                        </asp:GridView>
+                        </div>
+                            </div>
+                        </center>
+                      
                 </div>
 
                 <div class="container">
@@ -186,124 +195,97 @@
 
 
                 <footer class="footer footer-big footer-color-black" id="footerTrigger">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-2 col-sm-3">
-                                <div class="info add-animation-stopped animation-1">
-                                    <h5 class="title">Company</h5>
-                                    <nav>
-                                        <ul>
-                                            <li>
-                                                <a href="#">Home
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Find offers
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Discover Projects
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Our Portfolio
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">About Us
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-md-offset-1 col-sm-3">
-                                <div class="info add-animation-stopped animation-2">
-                                    <h5 class="title">Help and Support</h5>
-                                    <nav>
-                                        <ul>
-                                            <li>
-                                                <a href="#">Contact Us
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">How it works
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Terms &amp; Conditions
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Company Policy
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Money Back
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3">
-                                <div class="info add-animation-stopped animation-3">
-                                    <h5 class="title">Latest News</h5>
-                                    <nav>
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-twitter"></i><b>Get Shit Done</b>
-                                                    The best kit in the market is here, just give it a try and let us...
-                                                <hr class="hr-small">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                    We've just been featured on <b>Awwwards Website</b>! Thank you everybody for...
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-md-offset-1 col-sm-3">
-                                <div class="info add-animation-stopped animation-4">
-                                    <h5 class="title">Follow us on</h5>
-                                    <nav>
-                                        <ul>
-                                            <li>
-                                                <a href="#" class="btn btn-social btn-facebook btn-simple">
-                                                    <i class="fa fa-facebook-square"></i>Facebook
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="btn btn-social btn-dribbble btn-simple">
-                                                    <i class="fa fa-dribbble"></i>Dribbble
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="btn btn-social btn-twitter btn-simple">
-                                                    <i class="fa fa-twitter"></i>Twitter
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="btn btn-social btn-reddit btn-simple">
-                                                    <i class="fa fa-google-plus-square"></i>Google+
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="info add-animation-stopped animation-1">
+                                <h5 class="title">Company</h5>
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Find offers
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Our Portfolio
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About Us
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
-                        <hr>
-                        <div class="copyright">
-                            © 2019 MrAmlya, made with love
+                        <div class="col-md-4 col-md-offset-1 col-sm-3">
+                            <div class="info add-animation-stopped animation-2">
+                                <h5 class="title">Help and Support</h5>
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Contact Us
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">How it works
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Terms &amp; Conditions
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Company Policy
+                                            </a>
+                                        </li>
+                                       
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-3 col-md-offset-1 col-sm-3">
+                            <div class="info add-animation-stopped animation-4">
+                                <h5 class="title">Follow us on</h5>
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="btn btn-social btn-facebook btn-simple">
+                                                <i class="fa fa-facebook-square"></i>Facebook
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn-social btn-dribbble btn-simple">
+                                                <i class="fa fa-dribbble"></i>Dribbble
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn-social btn-twitter btn-simple">
+                                                <i class="fa fa-twitter"></i>Twitter
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn-social btn-reddit btn-simple">
+                                                <i class="fa fa-google-plus-square"></i>Google+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
-                </footer>
+                    <hr>
+                    <div class="copyright">
+                        © 2019 MrAmlya, made with love
+                    </div>
+                </div>
+            </footer>
             </div>
             <!-- end wrapper -->
 

@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="agency.html">
-      <publishTime>07/03/2019 22:06:03</publishTime>
+      <publishTime>03/07/2019 22:06:03</publishTime>
     </File>
     <File Include="assets/css/bootstrap.css">
       <publishTime>03/18/2019 23:42:46</publishTime>
@@ -613,40 +613,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/07/2019 22:06:04</publishTime>
     </File>
     <File Include="bin/SaathiyaProjectFinal.dll">
-      <publishTime>06/25/2019 15:30:40</publishTime>
+      <publishTime>03/31/2020 00:31:52</publishTime>
     </File>
     <File Include="bin/SaathiyaProjectFinal.pdb">
-      <publishTime>06/25/2019 15:30:40</publishTime>
+      <publishTime>03/31/2020 00:31:52</publishTime>
     </File>
     <File Include="contact.aspx">
       <publishTime>03/30/2019 06:30:19</publishTime>
     </File>
     <File Include="dashboard.aspx">
-      <publishTime>03/30/2019 03:35:31</publishTime>
+      <publishTime>03/31/2020 00:25:56</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>03/29/2019 19:12:38</publishTime>
+      <publishTime>03/31/2020 00:24:40</publishTime>
     </File>
     <File Include="detail.aspx">
       <publishTime>03/30/2019 03:30:33</publishTime>
     </File>
+    <File Include="favicon.ico">
+      <publishTime>03/31/2020 00:29:36</publishTime>
+    </File>
     <File Include="houses.html">
-      <publishTime>07/03/2019 22:06:03</publishTime>
+      <publishTime>03/07/2019 22:06:03</publishTime>
     </File>
     <File Include="login.aspx">
-      <publishTime>03/29/2019 18:32:56</publishTime>
+      <publishTime>03/31/2020 00:27:12</publishTime>
     </File>
     <File Include="logout.aspx">
       <publishTime>03/15/2019 17:57:38</publishTime>
     </File>
     <File Include="photo.html">
-      <publishTime>07/03/2019 22:06:03</publishTime>
+      <publishTime>03/07/2019 22:06:03</publishTime>
     </File>
     <File Include="presentation.html">
-      <publishTime>07/03/2019 22:06:03</publishTime>
+      <publishTime>03/07/2019 22:06:03</publishTime>
     </File>
     <File Include="register.aspx">
-      <publishTime>03/29/2019 18:35:59</publishTime>
+      <publishTime>03/31/2020 00:25:39</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>06/25/2019 15:30:41</publishTime>
